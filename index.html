@@ -1,0 +1,100 @@
+<!DOCTYPE html><!--Declaracipn que representa el tipo de documento  y ayuda a los navegadores a mostrar correctamente las páginas-->
+<html lang="en">  <!--Se le conoce como elemento raíz-->
+<head> <!-- Actúa como contenedor de todo lo que sea incluir en la página HTML no es visible por los visitantes de la página. Incluye palabras claves, metodos, vínculo, etc.-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web CH28</title>
+</head>
+<body>
+    <!-- <nombre de la etiqueta> El contenido </cierre de la etiqueta>-->
+        <p> Hola, soy un párrafo pequeñito</p>
+<!--Etiquetas de cabecera (h1,h2,h3,h4,h5,h6)-->
+<h1> soy una etiqueta h1</h1>
+<h2> soy una etiqueta h2</h2>
+<h3> Soy una etiqueta h3</h3>
+<h4> soy una etiqueta h4</h4>
+<h5> soy una etiqueta h5</h5>
+<h6> soy una etiqueta h6</h6>
+
+<p> Hola soy Hiram Navarro estoy en mi curso de programación, para poder laborar en este rublo
+    estoy echandole ganas para tener un home office por lo cual tengo que triunfar en esto dado 
+    que mi meta es no moverme en el metro
+</p>
+<p> yo estudie ingeniería geofísica y quiero que me vaya bien en esto h<sub>2</sub>o</p>
+<!-- Elemento de formato
+<b> </> formato texto negrito-->
+    <!-- elemento <i> Texto en cursiva </>-->
+        <!-- Elemento mark <mark> Texto marcado o resaltado </mark>-->
+        <!-- Etiqueta "u" <u> formato de subrayado </u>-->
+        <!-- Etiqueta sub <sub> formato para crear un subindice  </sub>-->
+         <!-- Etiqueta sup <su>  formato para crear superindice</sup>-->
+            <!-- "del" <del>  permite tachar texto</>-->
+               <!-- <blockquote> permite anidar datos y enfatizar  -->
+                <!-- <strong> remarca y hace negritas muestra texto importante,
+                     indica que elementos de la lista debe leerse primero </strong> -->
+                     <!-- "em" <em> em hace referencia a un texto enfatizando</em>-->
+                     <!-- Etiquetas divisorias y separadores-->
+                    <!-- <hr> Nos sirve para dar una separacion entre 
+                        nuestros párrafos. Se muestra una línea horizontal
+                         que usaremos como separador.
+                        
+                        <br> Sirve como separador entre párrafos veremo un salto de líneas que utilizaremos como 
+                    separador. También funciona para hacer espacios más amplios
+                entre  -->
+                <hr>
+                <h3>Atributos de HTML</h3>
+                <!-- Los atributos de HATML proporcionan información sobre los elementos de HTML.
+                Todos los elementos de HTML pueden tener atributos.
+               Los atributos se especifican en la etiqueta de incio.
+            vienen en pares de nombres nombre="valor"
+        -Atributos globales. Se pueden aplicar a todos los elementos del documento, y no dependen de la etiqueta. Entre los atriburos globales encontramos:
+    -class: se usa para especificar un conjunto de elementos por ejemplo: <div class = "clase1"> </div> 
+    -id: se usa para especificar un identificar único para un elemento. por ejemplo <div id ="id1"></div id>
+        -style: se usa para especificar una propiedad de estilos que se aplicará al elemento. por ejemplo <h1 style="color:red;"> Hola </h1>
+        -event se usa para especificar un evento que se ejecuatará en un elemento.
+        -hidde: Se usa para ocultar un elemento. Por ejemplo : hidden = "hiden"
+
+-->
+<p style="color: yellow;">Hola, me llamo Hiram Navarro. Soy <b style="color: brown;"> desarrollador de java full stack</b> y estoy aprendiendo a utilizar los elementos, las etiquetas y los atributos de HTML. </p>
+<p align="center"> Me gusta pasar tiempo en las redes sociales y me gusta escuchar música,pero sobre todo, ver seriesy pelicuas de thrillers psicologicos y futuristas.</p>
+<p align="left"> Me gusta pasar tiempo en las redes sociales y me gusta escuchar música,pero sobre todo, ver seriesy pelicuas de thrillers psicologicos y futuristas.</p>
+<p align="justify"> Me gusta pasar tiempo en las redes sociales y me gusta escuchar música,pero sobre todo, ver seriesy pelicuas de thrillers psicologicos y futuristas.</p>
+<p align="rigth"> Me gusta pasar tiempo en las redes sociales y me gusta escuchar música,pero sobre todo, ver seriesy pelicuas de thrillers psicologicos y futuristas.</p>
+                <blockquote  cite=" nos permite usas links o datos que no verá el usuario" > Esta etiqueta nos permite citar texto dentro
+    de nuestro documento HTML, es decir, proporciona un
+    mecanismo para insertar signos de 
+    puntuación de cita antes y después de 
+    una cita delimitada.
+   </blockquote>  
+   <hr>
+   <h3> Etiqueta de enlace</h3>
+   <!-- Los enlaces nos permiten la navegación por medio de hipervinculos (links) que realizan una conexión y referencian otros archivos o páginas web dentro de la misma aplicación o externa a la misma
+
+    Para los enlaces se utiliza etiqueta "anchor" (ancla) y repsensenta con una 
+    <a></>
+    Los principales atributos de anchor son:
+    -href: nos permite definir la ubicación de la pagina ala que nos vamos a enlazar este atributo puede ser una URL(externa)o un archivo dentro de nuestro proyecto.
+    -_blank: abre el enlace en una nueva ventana.
+    -_self:abre el enlace en la misma ventana (valor por default).
+    Rutas absolutas: Son aquellas que definen la ubicación completa de un archivo o una pagina web, por ejemplo: http//ww.google.com.mx
+    -Rutas relativas: Son las que se definen ***a partir de la posición en la estructura local de la página que lo está refiriendo, es decir, solo indica el orden de directorios, por ejemplo: /assets/img/tamalitodechilipin.jpg
+
+   -->
+   <a href =" https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwia4bTd_on_AhXClWoFHVn9B30QPAgI"> Da click aquí para visitar la página oficial de google </a>
+   <br>
+   <br>
+
+   <a href ="https://www.youtube.com/watch?v=VdGzPZ31ts8" target="_blank"> Da click aquí para visitar la página del vídeo </a>
+
+   <br>
+   <br>
+   <a href="mailto: hiram.nm@hotmail.com">Presiona aquí para enviarnos un correo </a>
+
+   <br>
+   <br>
+
+   <a href="/assets/images/imagen_tamal_verde.jpg" download> Descarga la imagen de tamal imagen_tamal_verde</a>
+
+</body>
+</html>
