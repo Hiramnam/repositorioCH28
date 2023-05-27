@@ -1,0 +1,52 @@
+/* 
+=====================Muestra 1
+table{           
+border-style: solid;
+
+}
+th{
+
+    border-style: solid;
+}
+
+tr{
+    border-style: solid;
+    
+}
+td{
+    border-style: solid;
+    
+} */
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+p{
+    font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;
+
+}
+table{
+    width: 100%;  /* es el espacio de cuanto ocupa
+    de la ventana, en este caso ancho completo
+    de la hoja*/
+    height: 300px;
+
+
+
+}
+a{
+    width: :100%;
+    hei
+}
+
+a{
+    text-decoration: none;
+}
+#moltres{
+    width: 50px;
+    
+}
