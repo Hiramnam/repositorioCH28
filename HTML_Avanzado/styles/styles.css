@@ -50,3 +50,22 @@ a{
     width: 50px;
     
 }
+form{ 
+    
+border-style: solid;
+
+.form1{
+    width: 50px;
+    background-color: salmon;
+}
+.form2{
+    width: 50px;
+    background-color: aqua;
+}
+.form3{
+    background-color: blueviolet;
+}
+.edad{
+    background-color: brown;
+}
+}
