@@ -1,0 +1,25 @@
+:root{
+    
+    --primary: #27374D;
+    --secondary:#526D82;
+    --info: #9DB2BF;
+    --contrast:#DDE6ED;
+}
+
+body {
+    margin: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+background-color: var(--contrast);
+
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+  background-color: #27374D;
+  color: var(--info);
+  border: 5px solid var(--contrast);
+
+    background-color: var(--secondary);
+    color: var(--primary);
+}

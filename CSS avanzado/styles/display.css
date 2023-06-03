@@ -1,0 +1,13 @@
+.inline{
+    display: inline;
+font-size: 2rem;
+}
+
+.block{
+    display: block;
+    font-size: smaller;
+}
+.none{
+    display: none;
+    
+}

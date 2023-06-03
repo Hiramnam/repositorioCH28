@@ -1,0 +1,75 @@
+:root{
+    --primary: #27374D;
+    --secondary:#526D82;
+    --info: #9DB2BF;
+    --contrast:#DDE6ED;
+}
+
+body {
+    margin: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+background-color: var(--contrast);
+
+}
+
+div {
+    padding: 10px 0px 10px 0px;
+  background-color: #27374D;
+  color: var(--info);
+  border: 5px solid var(--contrast);
+
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+.container{
+    height: 1500px;
+
+}
+
+/* Static es el posicionamiento default de elementos HTML */
+/* No se ve afectado por top, bottom, left, right */
+.static {
+    position: static;
+    top:200px;
+}
+.relative {
+    position: relative;
+    left:50px;
+    border: 5px solid var(--primary); 
+    /*botton: 20 px;*/
+}
+
+/* 
+Coloca al elemento a partir del viewport. top, left, bottom, right se ven afectadas segun las dimensiones de la ventana
+*/
+
+/* 
+Coloca el elemento a partir de las dimensiones de su elemento superior que lo engloba
+No toma encuenta el viewport para top, bottom, left, right
+*/
+
+.fixed{
+position: fixed;
+bottom: 10px;
+right: 0x;
+
+}
+
+
+.absolute{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    
+}
+
+/* 
+Coloca al elemento en realcion al vp, 
+Si usando scroll legamos a la posicion del elemento sticky, se va a mantener disponible en el viewport hasta el final de nuestra pagina
+*/
+
+.sticky{
+position: sticky;
+top: 0px;
+}

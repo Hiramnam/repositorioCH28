@@ -1,0 +1,24 @@
+
+.grid {
+    display: grid;
+    /* grid-template-columns:  auto 80px 130 px 170px; */
+    /* grid-template-columns: auto auto auto; */
+gap: 20px;  /* gap sirve para dividir en rectangulos individuales 
+las columnas */
+grid-template-columns: repeat(3,80px);
+
+/* grid-template-row: 10px auto ; */
+height: 400px;
+align-content: center; 
+/* alinea el contenido del cuadro principal */
+justify-content: center;
+
+}
+.grid > div {
+    text-align: center;
+    border: 3px solid var(--primary);
+}
+.item1 {
+    /* grid-column: 1/7; */
+    /* grid-area: 1/2/5/6; */
+}
